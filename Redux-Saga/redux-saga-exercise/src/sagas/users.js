@@ -1,4 +1,4 @@
-import { takeEvery , call , fork , put } from 'redux-saga/effects';
+import { takeEvery, takeLatest, call , fork , put } from 'redux-saga/effects';
 import * as actions from '../actions/users';
 import * as api from '../api/users'
 
