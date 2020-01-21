@@ -1,0 +1,28 @@
+import React, { Component } from 'react';
+
+function* testing(){
+  while(true){
+    yield 1;
+    yield 2;
+    yield 3;
+
+  }
+
+}
+
+class App extends Component {
+  render() {
+      const iterator = testing();
+      console.log(iterator.next())
+      console.log(iterator.next())
+      console.log(iterator.next())
+      console.log(iterator.next())
+      return (
+        <div className="App">
+          hello
+        </div>
+      );
+}
+}
+
+export default App;
