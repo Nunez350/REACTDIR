@@ -33,7 +33,7 @@ class App extends Component {
       return (
         <div style={{margin: '0 auto', padding: '20px', maxWidth: '600px'}}>
           <Alert color="danger" isOpen={!!this.props.users.error} toggle={this.handleCloseAlert}>
-         {this.props.usersError.error}
+         {this.props.users.error}
           </Alert>
           <NewUserForm onSubmit={this.handleSubmit}/>
           <UsersList onDeleteUser={this.handleDeleteUserClick} users={users.items} />
