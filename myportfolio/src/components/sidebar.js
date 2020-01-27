@@ -24,8 +24,13 @@ export default class Sidebar extends Component {
                         <nav id="colorlib-main-menu">
                             <ul>
                                 <li><a href="https://www.linkedin.com/in/roynunez" targer="_blank" rel="noopener noreferrer"> <i className="icon-linkedin"/></a></li>
-                            </ul>
+                                <li><a href="https://github.com/Nunez350https://github.com/Dhruv34788" target="_blank" rel="noopener noreferrer"><i className="icon-github"></i></a></li>
+                                
+                            </ul>                            
                         </nav>
+                        <div className="cololib-footer">
+                       
+                        </div>
                     </aside>
                     hey
                 </div>
